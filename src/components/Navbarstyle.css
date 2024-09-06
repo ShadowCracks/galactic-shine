@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #141311;
+    padding: 10px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 50px;
+    position: relative;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    
+}
+#navbar2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    margin-left: auto;
+}
+#navbar2 li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+}
+
+#navbar2 li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    
+}
